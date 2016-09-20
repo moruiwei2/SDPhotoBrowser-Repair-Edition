@@ -1,4 +1,4 @@
-# SDPhotoBrowser
+# SDPhotoBrowser 修复放大图像效果
 A image browser which is easy for using.
 非常简单易用的图片浏览器，模仿微博图片浏览器动感效果，综合了图片展示和存储等多项功能。
 
