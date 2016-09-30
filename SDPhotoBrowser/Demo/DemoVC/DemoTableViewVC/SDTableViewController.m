@@ -12,7 +12,7 @@
 
 #import "SDCollectionViewController.h"
 
-@interface SDTableViewController ()
+@interface SDTableViewController ()<UIScrollViewDelegate>
 
 @property (nonatomic, strong) NSArray *srcStringArray;
 
@@ -29,7 +29,7 @@
     self.title = @"图片浏览(GSD)";
     
     _srcStringArray = @[
-                        @"http://ww2.sinaimg.cn/thumbnail/904c2a35jw1emu3ec7kf8j20c10epjsn.jpg",
+                        @"http://image.baidu.com/search/down?tn=download&word=download&ie=utf8&fr=detail&url=http%3A%2F%2Fattach.bbs.miui.com%2Fforum%2F201502%2F03%2F150905vpzrbnzksnkbkyhr.jpg&thumburl=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D2867461065%2C2848965849%26fm%3D21%26gp%3D0.jpg",
                         @"http://ww2.sinaimg.cn/thumbnail/98719e4agw1e5j49zmf21j20c80c8mxi.jpg",
                         @"http://ww2.sinaimg.cn/thumbnail/67307b53jw1epqq3bmwr6j20c80axmy5.jpg",
                         @"http://ww2.sinaimg.cn/thumbnail/9ecab84ejw1emgd5nd6eaj20c80c8q4a.jpg",
@@ -37,7 +37,6 @@
                         @"http://ww1.sinaimg.cn/thumbnail/9be2329dgw1etlyb1yu49j20c82p6qc1.jpg"
                         ];
 }
-
 
 
 #pragma mark - Table view data source

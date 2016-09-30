@@ -153,7 +153,10 @@
     [self setupImageOfImageViewForIndex:self.currentImageIndex];
     
 }
-
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    
+}
 // 加载图片
 - (void)setupImageOfImageViewForIndex:(NSInteger)index
 {

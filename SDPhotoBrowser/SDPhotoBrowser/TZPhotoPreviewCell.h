@@ -11,9 +11,11 @@
 
 @interface TZPhotoPreviewCell : UICollectionViewCell
 
-
+@property (nonatomic, strong) UIImageView *imageView;
 @property (nonatomic, copy) void (^singleTapGestureBlock)();
 @property (nonatomic,weak) UIImage *image;
+@property (nonatomic, assign) BOOL hasLoadedImage;
+
 - (void)recoverSubviews;
 
 @end

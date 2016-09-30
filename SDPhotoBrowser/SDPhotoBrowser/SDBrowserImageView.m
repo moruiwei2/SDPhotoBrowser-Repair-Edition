@@ -35,9 +35,9 @@
         _totalScale = 1.0;
         
 //        捏合手势缩放图片
-            UIPinchGestureRecognizer *pinch = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(zoomImage:)];
-            pinch.delegate = self;
-            [self addGestureRecognizer:pinch];
+        UIPinchGestureRecognizer *pinch = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(zoomImage:)];
+        pinch.delegate = self;
+        [self addGestureRecognizer:pinch];
         __weak typeof(self) weakSelf = self;
         TZPhotoPreviewCell *cell = [[TZPhotoPreviewCell alloc]init];
         _cell = cell;
@@ -48,14 +48,9 @@
                 weakSelf.singleTapGestureBlock();
             }
         };
+        
     }
     
-    if (self) {
-        
-        
-        
-    
-    }
     return self;
 }
 
@@ -141,10 +136,11 @@
             [imageViewWeak addSubview:label];
         } else {
             _scrollImageView.image = image;
-            _cell.image = image;
             [_scrollImageView setNeedsDisplay];
+            _cell.image = image;
+            _cell.imageView.image = image;
         }
-   
+        NSLog(@"%@",[NSString stringWithFormat:@"%@",url]);
     }];
 }
 
@@ -207,6 +203,7 @@
     if (!_zoomingScroolView) {
         _zoomingScroolView = [[UIScrollView alloc] initWithFrame:self.bounds];
         _zoomingScroolView.backgroundColor = SDPhotoBrowserBackgrounColor;
+        _zoomingScroolView.backgroundColor = [UIColor clearColor];
         _zoomingScroolView.contentSize = self.bounds.size;
         UIImageView *zoomingImageView = [[UIImageView alloc] initWithImage:self.image];
         CGSize imageSize = zoomingImageView.image.size;

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "503C1C1B6DEAFF36370009E05C5B1C6D8E02E540",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "503C1C1B6DEAFF36370009E05C5B1C6D8E02E540" : 9223372036854775807,
+    "E2142CC108011EA23F4FC3B418C7BBE8DBAF5852" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F36905B1-586E-4795-9111-8E66C6554693",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "503C1C1B6DEAFF36370009E05C5B1C6D8E02E540" : "MO-SDPhotoBrowser-master\/",
+    "E2142CC108011EA23F4FC3B418C7BBE8DBAF5852" : "photoBrowser"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SDPhotoBrowser",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SDPhotoBrowser.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/moruiwei2\/MO-SDPhotoBrowser-master.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "503C1C1B6DEAFF36370009E05C5B1C6D8E02E540"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gsdios\/SDPhotoBrowser.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E2142CC108011EA23F4FC3B418C7BBE8DBAF5852"
+    }
+  ]
+}
